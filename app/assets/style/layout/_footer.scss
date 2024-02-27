@@ -1,0 +1,13 @@
+footer {
+    ul {
+        max-width: 1020px;
+    }
+
+    li {
+        width: 100%;
+
+        @include md {
+            width: 316px !important;
+        }
+    }
+}
